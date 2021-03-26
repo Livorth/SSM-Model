@@ -11,8 +11,9 @@
 1. 连接数据库
 2. 编写实体类
 3. 编写Dao层接口与对应的**Mapper.xml**
-4. 编写Mybatis的配置文件**Mybatis-Config.xml**
-5. 编写Spring连接Dao层的配置文件：**Spring-Dao.xml**
+4. 写一个数据库配置文件**database.properties**
+5. 编写Mybatis的配置文件**Mybatis-Config.xml**
+6. 编写Spring连接Dao层的配置文件：**Spring-Dao.xml**
 
 ### Spring部署
 1. 编写Service层接口和实现类
@@ -23,6 +24,8 @@
 1.  配置**web.xml**
 2.  配置SpringMVC的配置文件：**Spring-mvc.xml**
 3.  配置Spring总和配置文件：**applicationContext.xml**
+
+### 到此为止需要配置的都完成了配置，后面就是需要实现的业务了
 
 ### Controller层与交互页面编写
 1. 编写**BookController.java**，实现相关功能

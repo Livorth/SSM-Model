@@ -40,6 +40,7 @@
         <property name="configLocation" value="Mybatis-Config.xml"/>
     </bean>
 
+
     <!-- 4.配置扫描Dao接口包，动态实现Dao接口注入到spring容器中 -->
     <!--解释博客 ：https://www.cnblogs.com/jpfss/p/7799806.html-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
@@ -48,14 +49,5 @@
         <!-- 给出需要扫描Dao接口包 -->
         <property name="basePackage" value="cn.livorth.Dao"/>
     </bean>
-
-
-
-
-
-
-
-
-
 
 </beans>

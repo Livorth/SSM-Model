@@ -1,4 +1,4 @@
-package cn.livroth.Pojo;
+package cn.livorth.Pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

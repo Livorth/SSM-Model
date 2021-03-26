@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="cn.livroth.Dao.BooksMapper">
+<mapper namespace="cn.livorth.Dao.BooksMapper">
 
     <!--增加一个Book-->
     <insert id="addBook" parameterType="Books">

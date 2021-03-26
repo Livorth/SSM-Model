@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Books {
-    private String bookID;
+    private int bookID;
     private String bookName;
     private int bookCounts;
     private String detail;

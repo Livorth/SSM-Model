@@ -9,6 +9,7 @@
 
     <!-- 扫描service相关的bean -->
     <context:component-scan base-package="cn.livorth.Service"/>
+    <context:component-scan base-package="cn.livorth.Test"/>
 
     <!--BookServiceImpl注入到IOC容器中, 可以用注解替代-->
     <bean id="BookServiceImpl" class="cn.livorth.Service.BookServiceImpl">

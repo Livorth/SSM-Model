@@ -13,7 +13,7 @@ import java.util.List;
 public class TestDao {
     @Test
     public void testQueryAllBook() throws IOException {
-        ApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         BooksMapper mapper = context.getBean("booksMapper", BooksMapper.class);
 
         List<Books> books = mapper.queryAllBook();
